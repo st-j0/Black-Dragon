@@ -3,7 +3,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = "94786802371"
+global.owner = "50955296170"
 global.mongodb = process.env.MONGODB_URI || "mongodb://ugykkx9yl6qknshgcown:lJ18kzUxXP5IqyyUZZc@bdzoktb5vy7mozj8zh6k-mongodb.services.clever-cloud.com:2319/bdzoktb5vy7mozj8zh6k"
 global.port= process.env.PORT || 3000
 global.email = 'nimeshofficial.info@gmail.com'
@@ -16,7 +16,7 @@ global.website = 'https://github.com/nimesh-official/Black-Dragon'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/17d25248a18357d93d98e.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME || 'Black Dragon',
-  ownername: process.env.OWNER_NAME || 'Nimesh Official',
+  ownername: process.env.OWNER_NAME || 'st-j',
   sessionName:  process.env.SESSION_ID || 'Blackdragon;;;93QHXL7I#z7FsuiPEsD4RVBIOFELOE98SZXcwFrVGDiue3SxDz78',
   author:  process.env.PACK_INFO === (";")[0] || 'Nimesh Official',
   auto_read_status :  process.env.AUTO_READ_STATUS || 'false',
